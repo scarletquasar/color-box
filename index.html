@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<title> ColorBox - By Kayky Vitor Cruz </title>
+<head>
+    <script src="./js/Core.js"></script>
+	<link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Color_icon_blue.svg/1024px-Color_icon_blue.svg.png"/>
+    <link rel="stylesheet" href="./css/Main.css">
+</head>
+<body>
+    <center>
+        <h1>Color Box</h1>
+        <h2>Based on random hex-generator script.</h2>
+        <h3>(Click in the box to generate a new color or switch the Automatic Generator)</h3>
+        <input type="checkbox" onchange="ChangeAutoCheck()"> Automatic Generation | Time(sec):
+        <input type="text" id="Frequency" size="4" value="1"><br>
+        <button id="colorbox" onClick="ChangeColor()"></button>
+    </center>
+    <script>ChangeColorAuto();</script>
+</body>
+</html>

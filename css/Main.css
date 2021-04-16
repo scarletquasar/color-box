@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+	color: #E8EAED;
+	background-color: #0f0f0f;
+	font-family: 'Roboto Mono', monospace;
+}
+
+h1, h2, h3 {
+	margin-top: 1%;
+	color: #E8EAED;
+}
+
+button:focus {
+	outline:0;
+}
+
+#colorbox {
+	margin-top: 10%;
+    width:200px;
+    height:200px;
+    background:#114322;
+	border: none;
+	border-color: #114322;
+	border-radius: 14px;
+	transition-duration: 1s;
+}
+
+#colorbox:hover {
+	transform: scale(1.2);
+}
