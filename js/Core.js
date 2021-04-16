@@ -15,7 +15,7 @@ function ChangeColor() {
 function ChangeColorAuto() {
 (async () => {
 	Frequency = document.querySelector("#Frequency").value;
-    await sleep(Frequency * 1000)
+    	await sleep(Frequency * 1000)
 	if(ChangeAuto) { ChangeColor(); }
 	ChangeColorAuto();
 })()
