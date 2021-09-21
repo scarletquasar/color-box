@@ -23,7 +23,6 @@ button:focus {
 	border: none;
 	border-color: #114322;
 	border-radius: 14px;
-	transition-duration: 1s;
 }
 
 #colorbox:hover {
